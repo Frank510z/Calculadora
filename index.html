@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <LINK rel="stylesheet" type="text/css" href="estilo.css">
+    <script>
+
+        function sumar() {
+            var n1 = document.getElementById("num1").value;
+            var n2 = document.getElementById("num2").value;
+            var sum = parseFloat(n1) + parseFloat(n2); //parafraceamos los valores
+            document.getElementById("result").value = sum;
+        }
+
+        function restar() {
+            var n1 = document.getElementById("num1").value;
+            var n2 = document.getElementById("num2").value;
+            var sum = parseFloat(n1) - parseFloat(n2); //parafraceamos los valores
+            document.getElementById("result").value = sum;
+        }
+
+        function multiplicar() {
+            var n1 = document.getElementById("num1").value;
+            var n2 = document.getElementById("num2").value;
+            var sum = parseFloat(n1) * parseFloat(n2); //parafraceamos los valores
+            document.getElementById("result").value = sum;
+        }
+
+        function dividir() {
+            var n1 = document.getElementById("num1").value;
+            var n2 = document.getElementById("num2").value;
+            var sum = parseFloat(n1) / parseFloat(n2); //parafraceamos los valores
+            document.getElementById("result").value = sum;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>CALCULADORA</h1>
+    <div class="calculadora">
+        <input class="result" type="number" id="result" disabled/>
+        <div class="numeros">
+            NUMERO 1:<input type="number" id="num1" /> <br>
+            NUMERO 2:<input type="number" id="num2" /> <br />
+        </div>
+        <div class="datos">
+            <button onclick="sumar()">SUMAR</button> 
+            <button onclick="restar()">RESTAR</button> 
+            <button onclick="multiplicar()">MULTIPLICAR</button> 
+            <button onclick="dividir()">DIVIDIR</button> 
+        </div>
+
+    </div>
+    
+    <p>Rodriguez Ortega Francisco Javier .</p>
+</body>
+
+</html>

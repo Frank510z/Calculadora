@@ -1,0 +1,85 @@
+* {
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+body {
+  background: rgb(0, 0, 0);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px red, 0 0 5px red, 0 0 5px red, 0 0 5px red;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+  font-weight: bold;
+  float: right;
+}
+
+.calculadora {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  border: solid 2px #ffffff;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  background: #000000;
+  box-shadow: 0 0 5px rgb(255, 0, 200), inset 0 0 5px rgb(255, 0, 157),
+    0 0 5px rgb(255, 0, 191), inset 0 0 5px rgb(255, 0, 191);
+}
+
+#result {
+  font-size: 20px;
+  height: 50px;
+  width: 380px;
+  margin-top: 20px;
+  background: #000000;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+  text-align: center;
+  display: inline-block;
+  border: solid 2px #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgb(21, 255, 0), inset 0 0 5px rgb(0, 255, 13),
+    0 0 5px rgb(30, 255, 0), inset 0 0 5px rgb(21, 255, 0);
+}
+
+#num1,#num2 {
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+  margin-top: 20px;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+  border: solid 2px #ffffff;
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgb(0, 26, 255), inset 0 0 5px rgb(0, 17, 255),
+    0 0 5px rgb(0, 47, 255), inset 0 0 5px rgb(0, 17, 255);
+  margin: 30px;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  margin-top: 20px;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+  border: solid 2px #ffffff;
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgb(217, 255, 0), inset 0 0 5px rgb(229, 255, 0),
+    0 0 5px rgb(255, 238, 0), inset 0 0 5px rgb(251, 255, 0);
+  margin: 10px;
+}
